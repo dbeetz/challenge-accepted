@@ -14,8 +14,12 @@
 	<!-- Font Awesome -->
 	<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" />
 
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Denk+One|Sansita+One" rel="stylesheet">
+
 	<!-- Custom CSS  -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/sticky-footer.css" type="text/css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,7 +41,7 @@
 	<header>
 	<div class="container">
 		<!-- begin navbar -->
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -106,6 +110,12 @@
 		</div>
 	</section>
 	</div>
-
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="text-center">© Pokemon Are People Too</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
